@@ -15,5 +15,9 @@ async function getCards() {
     }
 }
 function paintCards(params) {
+    //Select the section in the HTML where are going to insert the cards
+    const cards = document.querySelector("#cards");
+    //Concatenation variable
+    let html = "";
     
 }
