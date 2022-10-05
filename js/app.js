@@ -8,7 +8,12 @@ async function getCards() {
         const response = await fetch(url);
         const result = await response.json();
         console.log(result);
+        //Function paintCards
+        paintCards(result);
     } catch (error) {
         console.log(error);
     }
+}
+function paintCards(params) {
+    
 }
