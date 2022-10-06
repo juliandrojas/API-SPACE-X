@@ -17,5 +17,7 @@ async function getCards() {
 function paintCards(cards) {
     //Select the section where the cards are inserted
     const cards = document.querySelector('#cards');
-    
+    //Variable to inject the HTML's code of cards
+    let html = "";
+
 }
