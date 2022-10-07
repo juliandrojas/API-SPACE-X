@@ -50,22 +50,19 @@ function paintCards(cards) {
                 <iframe class="getvideos" width="560" height="315" src="${link_video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <table class="table">
                     Space Exploration Technologies Corp
-                    <table class="table table-dark">
+                    <table class="table table-dark" id="deletePedidos">   
                         <thead>
-                        <tr>
-                            <th scope="col">Cohete</th>
-                            <th scope="col">${rocket_name}</th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Cohete</th>
-                            <th scope="col">${rocket_type}</th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Éxito lanzamiento</th>
-                            <th scope="col">${launch_success}</th>
-                        </tr>
-
+                            <tr>
+                                <th>Cohete</th>
+                                <th>Tipo de Cohete</th>
+                                <th>Exito de Lanzamiento</th>
+                            </tr>
                         </thead>
+                        <tbody>
+                            <td>${rocket_name}</td>
+                            <td>${rocket_type}</td>
+                            <td>${launch_success}</td>
+                        </tbody>
                     </table>
                 </table>
             </div>
